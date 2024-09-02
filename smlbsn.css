@@ -1,0 +1,172 @@
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.hea{
+    background-color: #005f73;
+    display: grid;
+    grid-template-columns:20% 15% 15% 15%;
+    grid-gap: 10%;
+    color: #f4f4f4;
+    height: 100px;
+    align-items: center;
+    overflow: hidden;
+}
+.hel{
+    font-size: 2em;
+    padding-left: 10%;
+    text-align: center;
+}
+.get{
+    font-size: 1.5em;
+    padding-left: 20%;
+    text-align: center;
+}
+main{
+    background-image:url('oXrLmSl.jpeg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wel{
+    padding: 40px 20px;
+    height: auto;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f4f4f4;
+}
+.hh{
+    padding-bottom: 5%;
+}
+
+.contact{
+    background-color: #ee6c4d;
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.contact:hover{
+    background-color: #d64b2a;
+}
+
+li{
+    padding-right: 40px;
+}
+.art{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px;
+    overflow: hidden;
+}
+
+.title{
+    font-size: 2.5em;
+}
+p{
+    font-size: 1.5em;
+    width: 60%;
+}
+li:hover{
+    color: #0056b3;
+}
+ul li {
+    font-size: 1.5rem;
+    list-style: none;
+}
+#os {
+    color: #007bff;
+}
+#au {
+    color: #28a745;
+}
+#contactus {
+    color: #dc3545;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #005f73;
+    color: #f4f4f4;
+    font-size: 1.3em;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+}
+
+@media(max-width:460px){
+    .hea{
+        height: 150px;
+    }
+    .hel{
+        font-size: 1.8em;
+    }
+    .get{
+        font-size: 1.3em;
+        padding-left: 20%;
+    }
+    main{
+        height: 500px;
+
+    }
+    .hh{
+        font-size: 1.5em;
+    }
+    
+    .contact{
+        font-size: 1.2em;
+    }
+}
+@media(max-width:395px){
+
+    .hel{
+        font-size: 1.6em;
+    }
+    .get{
+        font-size: 1.1em;
+        padding-left: 20%;
+    }
+    main{
+        height: 400px;
+    }
+}
+@media(max-width:365px){
+
+    .hel{
+        font-size: 1.5em;
+    }
+    .get{
+        font-size: 1em;
+        padding-left: 20%;
+    }
+    main{
+        height: 400px;
+    }
+    .title{
+        font-size: 2em;
+    }
+    p{
+        font-size: 1.2em;
+        width: 60%;
+    }
+    ul li {
+        font-size: 1.2rem;
+    }
+}
